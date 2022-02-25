@@ -1,5 +1,7 @@
 package id.ferdinand.githubuser.data
 
+import id.ferdinand.githubuser.BuildConfig
+
 class Values {
-    val TOKEN = "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"
+    val TOKEN = BuildConfig.API_KEY
 }
