@@ -6,12 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.Window
-import android.view.WindowManager
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.WindowInsetsControllerCompat
 import id.ferdinand.githubuser.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : AppCompatActivity() {
@@ -25,16 +19,6 @@ class SplashScreenActivity : AppCompatActivity() {
         window.statusBarColor = Color.WHITE
 
         Handler(Looper.getMainLooper()).postDelayed({
-//            val session = SessionManager(applicationContext)
-//            if (!session.isLoggedIn()) {
-//                val mainIntent = Intent(this, LoginActivity::class.java)
-//                this.startActivity(mainIntent)
-//                this.finish()
-//            } else {
-//                val mainIntent = Intent(this, MainActivity::class.java)
-//                this.startActivity(mainIntent)
-//                this.finish()
-//            }
             val mainIntent = Intent(this, MainActivity::class.java)
             this.startActivity(mainIntent)
             this.finish()

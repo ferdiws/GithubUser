@@ -3,7 +3,6 @@ package id.ferdinand.githubuser.ui.main.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import id.ferdinand.githubuser.R
 import id.ferdinand.githubuser.data.model.UserModel
 import id.ferdinand.githubuser.databinding.ActivityMainBinding
