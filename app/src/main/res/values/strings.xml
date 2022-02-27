@@ -8,6 +8,8 @@
     <string name="location">Location: %s</string>
     <string name="company">Company: %s</string>
     <string name="repository">Repository: %s</string>
+    <string name="search_label">Username</string>
+    <string name="not_available">Username not available</string>
 
     <string-array name="username">
         <item>JakeWharton</item>

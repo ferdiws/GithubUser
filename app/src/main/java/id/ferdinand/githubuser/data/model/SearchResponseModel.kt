@@ -1,6 +1,8 @@
 package id.ferdinand.githubuser.data.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
 data class SearchResponseModel(
     @field:SerializedName("total_count")
@@ -13,6 +15,7 @@ data class SearchResponseModel(
     val items: List<User>
 )
 
+@Parcelize
 data class User(
     @field:SerializedName("login")
     val login: String,
@@ -70,4 +73,4 @@ data class User(
 
     @field:SerializedName("score")
     val score: Double,
-)
+) : Parcelable
